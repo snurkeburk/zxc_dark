@@ -127,6 +127,8 @@ slider-component {
   margin: 0 1.2rem;
   display: flex;
   min-width: 2rem;
+  position: absolute;
+  top: -50px;
 }
 
 @media screen and (max-width: 749px) {
@@ -222,6 +224,7 @@ slider-component {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .slider-button:not([disabled]):hover {
@@ -239,10 +242,13 @@ slider-component {
 
 .slider-button--next .icon {
   transform: rotate(-90deg);
+  display: none !important;
 }
 
 .slider-button--prev .icon {
   transform: rotate(90deg);
+  display: none !important;
+
 }
 
 .slider-button--next:not([disabled]):hover .icon {

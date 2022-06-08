@@ -6,8 +6,26 @@
   scroll-behavior: smooth;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1d1d1d;
+}
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #383838;
+  border-radius: 2rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
@@ -1783,9 +1801,11 @@ input[type='checkbox'] {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
-  background: rgb(var(--color-background));
+  /*background: rgb(var(--color-background));*/
+  background-color: #070707;
   z-index: 4;
+  border-top-right-radius: 5rem;
+  border-top-left-radius: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2129,8 +2149,11 @@ details[open] .modal-overlay::after {
   background-color: #0707079a;
   /*background-color: rgb(var(--color-foreground), 0.5);*/
   top: 100%;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   right: 0;
+  width: 100vw;
+
   height: 100vh;
 }
 

@@ -166,7 +166,7 @@ h4, h2 {
 }
 .slideshow-main-button-container .slideshow-button-inner-container a{
   text-decoration: none;
-  color: #070707;
+  color: #f3f3f3;
   font-size: 3rem;
   padding: 0.2rem 2rem;
   height: 5rem;
@@ -175,23 +175,23 @@ h4, h2 {
   justify-content: center;
 }
 .slideshow-main-button-container  > .slideshow-button-inner-container > .shop{
-  color: #111111;
-  background-color: #f3f3f3;
-  font-weight: bolder;
+  color: #f3f3f3;
+  background-color: #f3f3f33a;
 
 }
 .slideshow-main-button-container > .slideshow-button-inner-container > .shop:hover{
-  background-color: #111111;
+  background-color: #ffffff83;
   color: #f3f3f3;
-  transition-duration: 200ms;
+  transition: 200ms;
 }
 .slideshow-main-button-container > .slideshow-button-inner-container > .info{
-  border-style: solid;
-  color: #f3f3f3;
+  border-style: none;
+  text-decoration: underline;
+  color: #f3f3f3e1;
 }
 
 .slideshow-main-button-container > .slideshow-button-inner-container > .info:hover{
-  border-color: #111111;
+  color: rgb(255, 255, 255);
   transition-duration: 200ms;
 }
 
@@ -312,11 +312,16 @@ slideshow-component .slideshow.banner {
 }
 
 .slideshow__controls {
-  border: 0.1rem solid rgba(var(--color-foreground), 0.08);
   /*? gömmer slider controls 
+  border: 0.1rem solid rgba(var(--color-foreground), 0.08);
   display: none !important; */
 }
-
+.about-our-clothes-text {
+  font-size: 2rem;
+  position: absolute;
+  color: #f3f3f3;
+  text-align: center;
+}
 .spaced-section--full-width:last-child slideshow-component:not(.page-width) .slideshow__controls {
   border-bottom: none;
 }
@@ -357,6 +362,8 @@ slideshow-component:not(.page-width) .slider-buttons {
     margin-left: 0.6rem;
     padding: 0 0 0 0.6rem;
     border-left: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  display: none !important;
+
   }
 }
 
@@ -369,10 +376,12 @@ slideshow-component:not(.page-width) .slider-buttons {
   transition: transform 150ms ease, opacity 150ms ease;
   width: 0.8rem;
   height: 1.2rem;
+
 }
 
 .slideshow__autoplay .icon.icon-play {
   height: 1rem;
+
 }
 
 .slideshow__autoplay path {
