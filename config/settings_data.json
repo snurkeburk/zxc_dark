@@ -39,12 +39,13 @@
           "announcement-bar-0",
           "1dca41f8-a1e7-4a52-9eec-552f74d2f866"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify://shop_images/ZXCportfolio_-_Copy-01-_mindre_kanter.png",
+          "logo": "shopify:\/\/shop_images\/ZXCportfolio_-_Copy-01-_mindre_kanter.png",
           "logo_width": 50,
           "logo_position": "top-center",
           "menu": "footer",
@@ -57,17 +58,23 @@
         "blocks": {
           "footer-0": {
             "type": "link_list",
-            "settings": { "heading": "Quick links", "menu": "footer" }
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
           },
           "footer-1": {
             "type": "text",
             "settings": {
               "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.</p>"
+              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
             }
           }
         },
-        "block_order": ["footer-0", "footer-1"],
+        "block_order": [
+          "footer-0",
+          "footer-1"
+        ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
@@ -79,7 +86,9 @@
         }
       }
     },
-    "content_for_index": []
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {
@@ -98,11 +107,16 @@
           "blocks": {
             "announcement-bar-0": {
               "type": "announcement",
-              "settings": { "color_scheme": "background-1" }
+              "settings": {
+                "color_scheme": "background-1"
+              }
             }
           },
-          "block_order": ["announcement-bar-0"],
-          "settings": {}
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {
+          }
         }
       }
     },
@@ -120,11 +134,24 @@
         "footer": {
           "type": "footer",
           "blocks": {
-            "menu": { "type": "link_list", "settings": {} },
-            "text": { "type": "text", "settings": {} }
+            "menu": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            }
           },
-          "block_order": ["menu", "text"],
-          "settings": { "color_scheme": "accent-1" }
+          "block_order": [
+            "menu",
+            "text"
+          ],
+          "settings": {
+            "color_scheme": "accent-1"
+          }
         }
       }
     }
