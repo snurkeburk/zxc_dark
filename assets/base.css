@@ -3,7 +3,9 @@
 * {
  /*background-color: #070707;
   color: white;*/
+  scroll-behavior: smooth;
 }
+
 
 
 :root,
@@ -543,7 +545,11 @@ table:not([class]) th {
 .center {
   text-align: center;
 }
-
+.center a {
+  color: #070707;
+  font-weight: bold;
+  font-size: 2rem;
+}
 .right {
   text-align: right;
 }
@@ -582,7 +588,7 @@ h6:empty {
   text-underline-offset: 0.3rem;
   color: rgb(var(--color-link));
   background-color: transparent;
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-family: inherit;
 }
 
@@ -1856,46 +1862,60 @@ input[type='checkbox'] {
 
 /* section-header */
 #shopify-section-header {
-  z-index: 3;
+  z-index: 4;
+}
+.shopify-section-header-sticky {
+  position: sticky !important;
+  width: 100%;
 }
 
-.shopify-section-header-sticky {
-  position: sticky;
-  top: 0;
-}
 
 .shopify-section-header-hidden {
-  transform: translateY(-100%);
+  transform: translateY(-30%);
+  
 }
-
 #shopify-section-header.animate {
-  transition: transform 0.15s ease-out;
+  transition: transform 0.15s ease-in-out;
 }
+#headr {
+  transition: 0.4s;
 
+}
+@keyframes nav-slide-in {
+  from {
+    transform: translateY(-200%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
 /* Main Header Layout */
 .header-wrapper {
-  display: block;
-  position: relative;
-  background-color: rgb(var(--color-background));
+  transform: translateY(-200%);
+  position: fixed !important;
+  width: 100vw;
+  background-color: rgba(1, 1, 1, 0) !important;
+  animation: nav-slide-in 1000ms 1.4s forwards;
 }
 
-.header-wrapper--border-bottom {
+/*.header-wrapper--border-bottom {
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
 }
-
+*/
 .header {
-  display: grid;
-  grid-template-areas: 'left-icon heading icons';
-  grid-template-columns: 1fr 2fr 1fr;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
+
 }
 
 @media screen and (min-width: 990px) {
   .header {
     padding-top: 2rem;
     padding-bottom: 2rem;
+
   }
 
   .header--has-menu:not(.header--middle-left) {
@@ -1917,6 +1937,7 @@ input[type='checkbox'] {
   }
 
   .header--top-center {
+
     grid-template-areas:
       'left-icon heading icons'
       'navigation navigation navigation';
@@ -1933,7 +1954,9 @@ input[type='checkbox'] {
 
 .header__heading {
   margin: 0;
+  width: 5rem;
   line-height: 0;
+  filter: invert(100%); 
 }
 
 .header > .header__heading-link {
@@ -2041,6 +2064,7 @@ input[type='checkbox'] {
 }
 
 @media screen and (max-width: 989px) {
+
   menu-drawer ~ .header__icons .header__icon--account {
     display: none;
   }
@@ -2063,6 +2087,7 @@ menu-drawer + .header__search {
 .header__search {
   display: inline-flex;
   line-height: 0;
+  margin-left: -20vw;
 }
 
 .header--top-center > .header__search {
