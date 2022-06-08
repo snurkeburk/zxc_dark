@@ -269,7 +269,8 @@ body,
 }
 
 .background-secondary {
-  background-color: rgba(var(--color-foreground), 0.04);
+  /*background-color: rgba(var(--color-foreground), 0.04);*/
+  background-color: #07070700;
   padding: 4rem 0 5rem;
 }
 
@@ -1908,7 +1909,6 @@ input[type='checkbox'] {
   align-items: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
-
 }
 
 @media screen and (min-width: 990px) {
@@ -2126,7 +2126,8 @@ details[open] .modal-overlay {
 details[open] .modal-overlay::after {
   position: absolute;
   content: '';
-  background-color: rgb(var(--color-foreground), 0.5);
+  background-color: #0707079a;
+  /*background-color: rgb(var(--color-foreground), 0.5);*/
   top: 100%;
   left: 0;
   right: 0;
