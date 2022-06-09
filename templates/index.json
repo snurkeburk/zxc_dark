@@ -235,6 +235,12 @@
         "show_rating": false
       }
     },
+    "1654787785b21724db": {
+      "type": "page",
+      "settings": {
+        "page": "who-we-are"
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "disabled": true,
@@ -383,6 +389,7 @@
     "16539485242feb15e7",
     "16540198938ea579a2",
     "featured_products",
+    "1654787785b21724db",
     "rich_text",
     "collage",
     "video",
