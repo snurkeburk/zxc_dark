@@ -241,6 +241,18 @@
         "page": "who-we-are"
       }
     },
+    "16547883506aca043e": {
+      "type": "page",
+      "settings": {
+        "page": "contact"
+      }
+    },
+    "1654788377f30e140d": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form"
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "disabled": true,
@@ -390,6 +402,8 @@
     "16540198938ea579a2",
     "featured_products",
     "1654787785b21724db",
+    "16547883506aca043e",
+    "1654788377f30e140d",
     "rich_text",
     "collage",
     "video",
