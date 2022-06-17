@@ -11,13 +11,25 @@ slideshow-component {
     transform: translateX(0%);
   }
 }
-@keyframes header-fade-in-phone {
+@keyframes header-fade-in-phone-wrapper {
   from {
-    font-size: 15rem;
+    transform: scale(1);
   }
   to {
-    font-size:10rem;
+    transform: scale(0.5);
+  }
+}
+@keyframes header-fade-in-phone {
+  from {
+    transform: translateX(-400%);
+    
+   /* transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+   */
+  }
+  to {
+    /*transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);*/
 
+    transform: translateX(0%);
   }
 }
 @keyframes header-right-side-fade-in {
@@ -188,23 +200,26 @@ h4, h2 {
     position: absolute;
     top: 10%;
     display: flex;
-    animation: header-fade-in 1.3s ease-out forwards ; 
+    animation: header-fade-in-phone-wrapper 1s 1.5s ease-in-out forwards ; 
   }
   #big-z{
-    animation: header-fade-in-phone 0.8s 1.6s ease-out forwards ; 
+    transform: translateX(-500%);
+    animation: header-fade-in-phone 0.9s 0.6s ease-out forwards ; 
   
   }
   #big-x{
-    animation: header-fade-in-phone 0.8s 1.6s ease-out forwards ; 
+    transform: translateX(-500%);
+    animation: header-fade-in-phone 0.7s 0.6s ease-out forwards ; 
     
   }
   #big-c{
-    animation: header-fade-in-phone 0.8s 1.6s ease-out forwards ; 
+    transform: translateX(-500%);
+    animation: header-fade-in-phone 0.5s 0.6s ease-out forwards ; 
   }
 }
 @media screen and (max-width: 400px) {
 .slogan-text h2, .slogan-text h4 {
-    font-size: 1.8rem;
+    font-size: calc(4vw + .2rem);
   }
 
 }
