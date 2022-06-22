@@ -226,7 +226,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/black.png",
-            "title": "Column",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
