@@ -10,8 +10,10 @@
     "type_header_font": "assistant_n4",
     "type_body_font": "assistant_n4",
     "sale_badge_color_scheme": "background-2",
+    "sold_out_badge_color_scheme": "background-1",
     "accent_icons": "text",
     "page_width": "1600",
+    "currency_code_enabled": true,
     "checkout_header_image": "shopify:\/\/shop_images\/backdrop_main_page.jpg",
     "checkout_logo_image": "shopify:\/\/shop_images\/ZXCportfolio_-_Copy-01-_medium_kander.png",
     "sections": {
@@ -47,6 +49,7 @@
       "header": {
         "type": "header",
         "settings": {
+          "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/ZXCportfolio_-_Copy-01-_mindre_kanter.png",
           "logo_width": 50,
           "logo_position": "top-center",
