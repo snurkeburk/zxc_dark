@@ -219,32 +219,32 @@
         "swipe_on_mobile": true
       }
     },
-    "1655911755e78c1687": {
+    "16559166914be318aa": {
       "type": "image-with-text",
       "blocks": {
-        "16559117552b43e8da-0": {
+        "1655916691c13c0c6a-0": {
           "type": "heading",
           "settings": {
-            "heading": "\"WHITE\" compression shorts",
+            "heading": "Breathable material",
             "heading_size": "h2"
           }
         },
-        "16559117552b43e8da-2": {
-          "type": "button",
+        "1655916691c13c0c6a-1": {
+          "type": "text",
           "settings": {
-            "button_label": "Buy now",
-            "button_link": "shopify:\/\/products\/white-compression-shorts"
+            "text": "<p><em>All of our shorts have with a backpocket equipped with a high quality zipper to store your wallet, earphones or whatever you want to bring with you.<\/em><\/p>",
+            "text_style": "subtitle"
           }
         }
       },
       "block_order": [
-        "16559117552b43e8da-0",
-        "16559117552b43e8da-2"
+        "1655916691c13c0c6a-0",
+        "1655916691c13c0c6a-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/white.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
+        "image": "shopify:\/\/shop_images\/IMG_0971_550x_01940f3c-4860-47d3-ac87-a24e35b16ce2.webp",
+        "height": "small",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -253,33 +253,74 @@
         "mobile_content_alignment": "left"
       }
     },
-    "165591660108c5548e": {
+    "165591685011bb965d": {
       "type": "image-with-text",
       "blocks": {
-        "16559166010275db72-0": {
+        "1655916850bd6a04fc-0": {
           "type": "heading",
           "settings": {
-            "heading": "\"BLACK\" compression shorts",
+            "heading": "No shake pocket",
             "heading_size": "h2"
           }
         },
-        "16559166010275db72-2": {
-          "type": "button",
+        "1655916850bd6a04fc-1": {
+          "type": "text",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "shopify:\/\/products\/black-compression-shorts"
+            "text": "<p><em>Attached to the compression layer is a stretchable pocket to fit almost any size phone and keep it from bouncing in your pants.<\/em><\/p>",
+            "text_style": "subtitle"
           }
         }
       },
       "block_order": [
-        "16559166010275db72-0",
-        "16559166010275db72-2"
+        "1655916850bd6a04fc-0",
+        "1655916850bd6a04fc-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/black.png",
+        "image": "shopify:\/\/shop_images\/white_compression_shorts_550x_ceed31ac-87fb-4f64-9798-5f6edbe171f7.webp",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left"
+      }
+    },
+    "1655916974e405ccfc": {
+      "type": "image-with-text",
+      "blocks": {
+        "1655916974c1f0ca1c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pocket",
+            "heading_size": "h2"
+          }
+        },
+        "1655916974c1f0ca1c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>All of our shorts have with a backpocket equipped with a high quality zipper to store your wallet, earphones or whatever you want to bring with you.<\/em><\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "1655916974c1f0ca1c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1655916974c1f0ca1c-0",
+        "1655916974c1f0ca1c-1",
+        "1655916974c1f0ca1c-2"
+      ],
+      "settings": {
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -468,8 +509,9 @@
     "image_banner",
     "16539485242feb15e7",
     "16540198938ea579a2",
-    "1655911755e78c1687",
-    "165591660108c5548e",
+    "16559166914be318aa",
+    "165591685011bb965d",
+    "1655916974e405ccfc",
     "featured_products",
     "1654787785b21724db",
     "16547883506aca043e",
