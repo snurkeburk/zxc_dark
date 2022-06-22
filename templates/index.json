@@ -219,6 +219,74 @@
         "swipe_on_mobile": true
       }
     },
+    "1655911755e78c1687": {
+      "type": "image-with-text",
+      "blocks": {
+        "16559117552b43e8da-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"WHITE\" compression shorts",
+            "heading_size": "h2"
+          }
+        },
+        "16559117552b43e8da-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy now",
+            "button_link": "shopify:\/\/products\/white-compression-shorts"
+          }
+        }
+      },
+      "block_order": [
+        "16559117552b43e8da-0",
+        "16559117552b43e8da-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/white.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left"
+      }
+    },
+    "165591660108c5548e": {
+      "type": "image-with-text",
+      "blocks": {
+        "16559166010275db72-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"BLACK\" compression shorts",
+            "heading_size": "h2"
+          }
+        },
+        "16559166010275db72-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "shopify:\/\/products\/black-compression-shorts"
+          }
+        }
+      },
+      "block_order": [
+        "16559166010275db72-0",
+        "16559166010275db72-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/black.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left"
+      }
+    },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
@@ -233,47 +301,6 @@
         "show_image_outline": true,
         "show_vendor": false,
         "show_rating": false
-      }
-    },
-    "1655911755e78c1687": {
-      "type": "image-with-text",
-      "blocks": {
-        "16559117552b43e8da-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "\"WHITE\" compression shorts",
-            "heading_size": "h2"
-          }
-        },
-        "16559117552b43e8da-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "16559117552b43e8da-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16559117552b43e8da-0",
-        "16559117552b43e8da-1",
-        "16559117552b43e8da-2"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left"
       }
     },
     "1654787785b21724db": {
@@ -441,8 +468,9 @@
     "image_banner",
     "16539485242feb15e7",
     "16540198938ea579a2",
-    "featured_products",
     "1655911755e78c1687",
+    "165591660108c5548e",
+    "featured_products",
     "1654787785b21724db",
     "16547883506aca043e",
     "1654788377f30e140d",
