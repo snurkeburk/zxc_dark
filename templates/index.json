@@ -303,23 +303,16 @@
             "text": "<p><em>All of our shorts have with a backpocket equipped with a high quality zipper to store your wallet, earphones or whatever you want to bring with you.<\/em><\/p>",
             "text_style": "subtitle"
           }
-        },
-        "1655916974c1f0ca1c-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "1655916974c1f0ca1c-0",
-        "1655916974c1f0ca1c-1",
-        "1655916974c1f0ca1c-2"
+        "1655916974c1f0ca1c-1"
       ],
       "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
+        "image": "shopify:\/\/shop_images\/esert_compression_shorts_3.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
