@@ -221,34 +221,6 @@
     },
     "1655909979301a94f4": {
       "type": "image-with-text",
-      "blocks": {
-        "16559099794cc2a4c5-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "16559099794cc2a4c5-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "16559099794cc2a4c5-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16559099794cc2a4c5-0",
-        "16559099794cc2a4c5-1",
-        "16559099794cc2a4c5-2"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/white.png",
         "height": "adapt",
@@ -263,34 +235,6 @@
     },
     "1655910014f9537a74": {
       "type": "image-with-text",
-      "blocks": {
-        "16559100146287184c-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "16559100146287184c-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "16559100146287184c-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16559100146287184c-0",
-        "16559100146287184c-1",
-        "16559100146287184c-2"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/black.png",
         "height": "adapt",
