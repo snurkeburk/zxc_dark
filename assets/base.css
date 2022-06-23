@@ -5,6 +5,9 @@
   color: white;*/
   scroll-behavior: smooth;
 }
+.template-search__search {
+  margin-top: 5rem;
+}
 .loox-star {
   filter: invert(100%);
 }
