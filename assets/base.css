@@ -5,7 +5,16 @@
   color: white;*/
   scroll-behavior: smooth;
 }
-
+.loox-star {
+  filter: invert(100%);
+}
+.product-form__buttons button {
+  color: black;
+  font-size: 2rem;
+}
+#Share-template--16101560975604__main summary{
+  color: rgb(151, 151, 151) !important;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 15px;
@@ -1798,23 +1807,54 @@ input[type='checkbox'] {
   width: 1.7rem;
   height: 1.7rem;
 }
+.search__button{
+  position: absolute;
+  top: 15rem;
+}
+.modal__close-button{
+  position: absolute;
+  top: 15rem;
+}
+#Search-In-Modal-1{
+  position: absolute;
+  top: 15rem;
+}
 
 .modal__content {
   position: absolute;
-  top: 0;
+  top: -11rem;
   left: 0;
   right: 0;
   /*background: rgb(var(--color-background));*/
-  background-color: #070707;
+  background-color: #07070700;
   z-index: 4;
-  border-top-right-radius: 5rem;
-  border-top-left-radius: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.media-modal {
+@media screen and (max-width: 990px) {
+  .modal__content {
+    top: -12rem;
+  }
+  .search__button{
+    position: absolute;
+    top: 15rem;
+  }
+  .modal__close-button{
+    position: absolute;
+    top: 19rem;
+    right: 0;
+  }
+  #Search-In-Modal{
+    position: absolute;
+    top: 15rem;
+  }
+  #Search-In-Modal-1{
+    position: absolute;
+    top: 15rem;
+  }
+}
+  .media-modal {
   cursor: zoom-out;
 }
 
@@ -2149,7 +2189,7 @@ details[open] .modal-overlay {
 details[open] .modal-overlay::after {
   position: absolute;
   content: '';
-  background-color: #0707079a;
+  background-color: #070707e1;
   /*background-color: rgb(var(--color-foreground), 0.5);*/
   top: 100%;
   left: 50%;
