@@ -1,8 +1,12 @@
 .collection-hero--with-image {
   background-color: rgba(var(--color-foreground), 0.04);
 }
-
+.product{
+  margin-top: 5rem !important;
+  background-color: white;
+}
 .collection-hero__inner {
+  margin-top: 10rem;
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;

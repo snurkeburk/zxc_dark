@@ -8,7 +8,16 @@
 }
 
 .product__media-wrapper {
+  margin-top: 10rem;
   padding-left: 0;
+}
+
+@media screen and (min-width: 750px) {
+  .product__info-wrapper {
+    margin-top: 10rem;
+    padding-left: 0;
+    padding-bottom: 0;
+  }
 }
 
 .product__info-wrapper {
@@ -19,6 +28,7 @@
 @media screen and (max-width: 749px) {
   .product-section {
     margin-top: 0;
+    
   }
 }
 
@@ -914,11 +924,9 @@ a.product__text {
     margin-left: 0;
     grid-template-columns: repeat(4, 1fr);
   }
-
   .product--medium .thumbnail-list {
     grid-template-columns: repeat(5, 1fr);
   }
-
   .product--large .thumbnail-list {
     grid-template-columns: repeat(6, 1fr);
   }
