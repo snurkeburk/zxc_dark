@@ -2,7 +2,12 @@
   position: relative;
   display: block;
 }
-
+.page-width .title-wrapper-with-link {
+  margin-top: 10rem;
+}
+.page-width .title-wrapper-with-link .underlined-link {
+  color: #f3f3f3;
+}
 .cart__empty-text,
 .is-empty .cart__contents,
 cart-items.is-empty .title-wrapper-with-link,
