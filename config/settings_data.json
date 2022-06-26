@@ -13,6 +13,7 @@
     "sold_out_badge_color_scheme": "background-1",
     "accent_icons": "text",
     "page_width": "1600",
+    "favicon": "shopify:\/\/shop_images\/zxcsvg.png",
     "currency_code_enabled": true,
     "checkout_header_image": "shopify:\/\/shop_images\/backdrop_main_page.jpg",
     "checkout_logo_image": "shopify:\/\/shop_images\/ZXCportfolio_-_Copy-01-_medium_kander.png",
