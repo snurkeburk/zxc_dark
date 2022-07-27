@@ -1945,8 +1945,8 @@ input[type='checkbox'] {
 #headr {
   transition: 0.4s;
 }
-.bndlr-inner-products-container  {
-  padding-top: 10rem;
+.bndlr-products-container  {
+  scroll-padding-top: 10rem;
   background-color: white;
 }
 @keyframes nav-slide-in {
