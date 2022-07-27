@@ -1948,8 +1948,8 @@ input[type='checkbox'] {
 }
 #headr {
   transition: 0.4s;
-}
 
+}
 @keyframes nav-slide-in {
   from {
     transform: translateY(-200%);
@@ -1966,7 +1966,7 @@ input[type='checkbox'] {
   transform: translateY(-200%);
   position: fixed !important;
   width: 100vw;
-  background-color: rgba(255, 255, 255, 1) !important;
+  background-color: rgba(1, 1, 1, 0) !important;
   animation: nav-slide-in 1000ms 1.4s forwards;
 }
 
