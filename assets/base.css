@@ -1967,7 +1967,9 @@ input[type='checkbox'] {
   border-top-style: none !important;
   border-bottom-style: none !important;
 }
-
+.bndlr-select-variant {
+  background-color: none;
+}
 @keyframes nav-slide-in {
   from {
     transform: translateY(-200%);
