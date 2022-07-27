@@ -1968,7 +1968,7 @@ input[type='checkbox'] {
   border-bottom-style: none !important;
 }
 .bndlr-select-variant {
-  background: none;
+  background-color: none !important;
 }
 @keyframes nav-slide-in {
   from {
