@@ -1955,10 +1955,12 @@ input[type='checkbox'] {
 .bndlr-bundle-description
 {
   padding-top: 0rem;
-  
 }
 .bndlr-inner-products-container  {
   padding-top: 0rem;
+}
+.bndlr-product{
+  border-style: none;
 }
 @keyframes nav-slide-in {
   from {
