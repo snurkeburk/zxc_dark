@@ -1959,8 +1959,8 @@ input[type='checkbox'] {
 .bndlr-inner-products-container  {
   padding-top: 0rem;
 }
-.bndlr-product:last-child {
-  border-left-style: none !important;
+.bndlr-product {
+  border-left-style: solid !important;
 }
 .bndlr-product:first-child {
   border-left-style: none !important;
