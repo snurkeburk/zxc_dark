@@ -1945,7 +1945,7 @@ input[type='checkbox'] {
 #headr {
   transition: 0.4s;
 }
-.bndlr-products-container  {
+.bndlr-container  {
   scroll-padding-top: 10rem;
   background-color: white;
 }
