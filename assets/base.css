@@ -1948,7 +1948,6 @@ input[type='checkbox'] {
 }
 #headr {
   transition: 0.4s;
-
 }
 @keyframes nav-slide-in {
   from {
@@ -1968,6 +1967,7 @@ input[type='checkbox'] {
   width: 100vw;
   background-color: rgba(1, 1, 1, 0) !important;
   animation: nav-slide-in 1000ms 1.4s forwards;
+
 }
 
 /*.header-wrapper--border-bottom {
@@ -1981,10 +1981,7 @@ input[type='checkbox'] {
   padding-bottom: 1rem;
 }
 
-#MainContent {
-margin-top: 2rem;
-margin-bottom: -5rem;  
-}
+
 
 @media screen and (min-width: 990px) {
 
