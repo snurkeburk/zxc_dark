@@ -1981,9 +1981,9 @@ input[type='checkbox'] {
   padding-bottom: 1rem;
 }
 
-.bndlr-products-container {
-  margin-top: 2rem;
-  margin-bottom: -5rem;
+#MainContent {
+margin-top: 2rem;
+margin-bottom: -5rem;  
 }
 
 @media screen and (min-width: 990px) {
