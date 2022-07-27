@@ -1948,7 +1948,6 @@ input[type='checkbox'] {
 }
 #headr {
   transition: 0.4s;
-  margin-bottom: 10rem;
 
 }
 @keyframes nav-slide-in {
