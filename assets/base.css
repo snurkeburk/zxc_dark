@@ -1962,7 +1962,7 @@ input[type='checkbox'] {
 .bndlr-product:not(:last-child) {
   border-left-style: solid !important;
 }
-.bndlr-product:not(:first-child) {
+.bndlr-product:first-child {
   border-left-style: none !important;
   
 }
