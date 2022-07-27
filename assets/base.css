@@ -1936,19 +1936,17 @@ input[type='checkbox'] {
   position: sticky !important;
   width: 100%;
 }
-
-
 .shopify-section-header-hidden {
   transform: translateY(-30%);
-
-  
 }
 #shopify-section-header.animate {
   transition: transform 0.15s ease-in-out;
 }
 #headr {
   transition: 0.4s;
-
+}
+.bndlr-inner-products-container  {
+  background-color: white;
 }
 @keyframes nav-slide-in {
   from {
@@ -1980,9 +1978,6 @@ input[type='checkbox'] {
   align-items: center;
   padding-bottom: 1rem;
 }
-
-
-
 @media screen and (min-width: 990px) {
 
 
