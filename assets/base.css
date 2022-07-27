@@ -1960,7 +1960,7 @@ input[type='checkbox'] {
   padding-top: 0rem;
 }
 .bndlr-product{
-  border-style: none;
+  border-left-style: none;
 }
 @keyframes nav-slide-in {
   from {
