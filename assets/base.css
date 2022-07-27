@@ -1986,6 +1986,7 @@ input[type='checkbox'] {
 
   .header--has-menu:not(.header--middle-left) {
     padding-bottom: 0;
+    margin-bottom: -5rem; 
   }
 
   .header--top-left,
