@@ -1949,10 +1949,12 @@ input[type='checkbox'] {
   
 }
 .bndlr-bundle-title {
+  padding-top: 10rem;
   
 }
 .bndlr-bundle-description
 {
+  padding-top: 10rem;
   
 }
 .bndlr-inner-products-container  {
