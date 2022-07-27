@@ -1962,15 +1962,12 @@ input[type='checkbox'] {
 
 
 .bndlr-product{
-  border-left-style: solid !important;
+  border-left-style: none !important;
   border-right-style: none !important;
   border-top-style: none !important;
   border-bottom-style: none !important;
-  border-color: rgba(255,255,255,0.1)
 }
-.bndlr-product:first-child {
-  border-left-style: none !important;
-}
+
 @keyframes nav-slide-in {
   from {
     transform: translateY(-200%);
