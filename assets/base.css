@@ -1949,9 +1949,7 @@ input[type='checkbox'] {
 #headr {
   transition: 0.4s;
 }
-.bndlr-inner-products-container {
-  background-color: white;
-}
+
 @keyframes nav-slide-in {
   from {
     transform: translateY(-200%);
