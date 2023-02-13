@@ -221,6 +221,10 @@ h4, h2 {
 .slogan-text h2, .slogan-text h4 {
     font-size: calc(4vw + .2rem);
   }
+    color: #ffffff;
+  background-color: #070707;
+  width: 15rem;
+  height: 8rem;
 
 }
 .slideshow-button-inner-container{
