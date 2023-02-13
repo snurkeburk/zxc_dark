@@ -248,19 +248,18 @@ h4, h2 {
   width: 15rem;
   height: 8rem;
 }
-.slideshow-main-button-container  > .slideshow-button-inner-container > .shop:hover{
-  border-radius: 2rem 0 2rem 0;
-}
-
 .slideshow-main-button-container > .slideshow-button-inner-container > .shop:hover{
   background-color: #ffffff83;
   color: #f3f3f3;
   transition: 200ms;
+  border-radius: 2rem 0 2rem 0;
 }
 .slideshow-main-button-container > .slideshow-button-inner-container > .info{
   border-style: none;
   color: #000000e1;
   background-color: #f3f3f3;
+  width: 15rem;
+  height: 8rem;
 }
 
 .slideshow-main-button-container > .slideshow-button-inner-container > .info:hover{
