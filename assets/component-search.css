@@ -7,12 +7,10 @@
   width: 1.8rem;
 }
 .header__search{
-  padding-left: 3rem;
 }
 
 @media screen and (min-width: 1920px) {
 .header__search{
-  padding-left: 0;
 }
 }
 /* Remove extra spacing for search inputs in Safari */
