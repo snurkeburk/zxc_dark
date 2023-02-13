@@ -252,7 +252,7 @@ h4, h2 {
 .slideshow-main-button-container > .slideshow-button-inner-container > .shop:hover{
   background-color: #ffffff83;
   color: #f3f3f3;
-  transition: 200ms;
+  transition: 400ms;
   border-radius: 2rem 0 2rem 0;
 }
 .slideshow-main-button-container > .slideshow-button-inner-container > .info{
@@ -265,9 +265,9 @@ h4, h2 {
 
 .slideshow-main-button-container > .slideshow-button-inner-container > .info:hover{
   color: rgb(#070707);
-  transition-duration: 200ms;
+  transition-duration: 400ms;
   border-radius: 0 2rem 0 2rem;
-  background-color: rgba(243, 243, 243, 0.5)
+  background-color: rgba(243, 243, 243, 0.7)
 }
 
 
