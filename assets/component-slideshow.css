@@ -240,14 +240,16 @@ h4, h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 8rem;
 }
 .slideshow-main-button-container  > .slideshow-button-inner-container > .shop{
   color: #ffffff;
   background-color: #070707;
   width: 30%;
-
 }
+.slideshow-main-button-container  > .slideshow-button-inner-container > .shop:hover{
+  border-radius: 5rem 0 5rem 0;
+}
+
 .slideshow-main-button-container > .slideshow-button-inner-container > .shop:hover{
   background-color: #ffffff83;
   color: #f3f3f3;
