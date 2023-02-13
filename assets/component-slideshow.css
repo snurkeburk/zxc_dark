@@ -265,7 +265,7 @@ h4, h2 {
 .slideshow-main-button-container > .slideshow-button-inner-container > .info:hover{
   color: rgb(255, 255, 255);
   transition-duration: 200ms;
-  border-radius: 2rem 0 2rem 0;
+  border-radius: 0 2rem 0 2rem;
 }
 
 
