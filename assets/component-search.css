@@ -7,7 +7,7 @@
   width: 1.8rem;
 }
 
-.header__icon header__icon--search header__icon--summary link focus-inset modal__toggle{
+.modal__toggle-open icon icon-search{
   margin-left: 10%;
 }
 
