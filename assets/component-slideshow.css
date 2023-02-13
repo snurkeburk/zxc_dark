@@ -245,6 +245,7 @@ h4, h2 {
 .slideshow-main-button-container  > .slideshow-button-inner-container > .shop{
   color: #ffffff;
   background-color: #070707;
+  width: 30%;
 
 }
 .slideshow-main-button-container > .slideshow-button-inner-container > .shop:hover{
