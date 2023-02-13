@@ -8,7 +8,7 @@
 }
 
 .header__search{
-  left: 20rem;
+  padding-left: 20rem;
 }
 
 /* Remove extra spacing for search inputs in Safari */
