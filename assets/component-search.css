@@ -10,7 +10,7 @@
   padding-left: 5rem;
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (max-width: 1920px) {
 .header__search{
   padding-left: 0;
 }
