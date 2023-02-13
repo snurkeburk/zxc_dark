@@ -8,7 +8,7 @@
 }
 
 .modal__toggle-open icon icon-search{
-  margin-left: 5%;
+  margin-left: 20rem !important;
 }
 
 /* Remove extra spacing for search inputs in Safari */
