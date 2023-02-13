@@ -221,9 +221,7 @@ h4, h2 {
 .slogan-text h2, .slogan-text h4 {
     font-size: calc(4vw + .2rem);
   }
-  .slideshow-button-inner-container {
-    margin-top: 20%;
-  }
+
 
 }
 .slideshow-button-inner-container{
@@ -293,6 +291,9 @@ h4, h2 {
 @media screen and (max-width: 989px) {
   .no-js slideshow-component .slider {
     padding-bottom: 3rem;
+  }
+    .slideshow-button-inner-container {
+    margin-top: 20%;
   }
 }
 
